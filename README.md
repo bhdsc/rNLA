@@ -15,12 +15,12 @@ The purpose of the experiments is to compare the accuracy and runtime of methods
 - [Image Compression](ImageCompress.ipynb)
 
 > [!NOTE]
-> Libraries in [requirements.txt](requirements.txt) must be installed before running the experiments/notebooks
+> Libraries in [requirements.txt](requirements.txt) must be installed before running any of the experiments/notebooks
 
 
 ## Results
 
-### Approximate Matrix Multiplication
+### [Approximate Matrix Multiplication](matrix_mul.ipynb)
 
 These experiments implement two versions of randomized matrix multiplication. One uses subsampling with uniform weights, and one uses subsampling with optimal weights. We compare the runtime of randomized matrix multiplication with that of numpy's built in matrix multiplication functionality. We also compare the error of each approximation scheme with respect to the output of numpy's built in matrix multiplication function. The results below can be obtained by running the jupyter notebook [matrix_mul.ipynb](matrix_mul.ipynb), provided that the requirements in [requirements.txt](requirements.txt) are configured. The whole notebook should take roughly a few minutes to run.
 
@@ -28,12 +28,12 @@ These experiments implement two versions of randomized matrix multiplication. On
 
 ![Mat mul runtimes](https://github.com/bhdsc/rNLA/blob/main/visualizations/exp1_times.png)
 
-### Errors
+#### Errors
 
 ![Mat mul errors](https://github.com/bhdsc/rNLA/blob/main/visualizations/exp1_errors.png)
 
 
-### Randomized Singular Value Decomposition
+### [Randomized Singular Value Decomposition](rsvd.ipynb)
 
 We evaluate and compare the low-rank approximation runtimes and errors between rSVD and SVD.
 
@@ -42,7 +42,7 @@ We evaluate and compare the low-rank approximation runtimes and errors between r
 | error vs. dimension plot     | error vs. dimension plot                |
 | runtime vs. dimension plot   | runtime vs. dimension plot              |
 
-### Image Compression
+### [Image Compression](ImageCompress.ipynb)
 
 We evaluate the performance between rSVD and SVD on an image compression task. The code and complete results are included in [Image Compression](ImageCompress.ipynb).
 
