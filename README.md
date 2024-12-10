@@ -31,6 +31,12 @@ These experiments implement two versions of randomized matrix multiplication. On
 ![Mat mul errors](https://github.com/bhdsc/rNLA/blob/main/visualizations/exp1_errors.png)
 
 
+| Singular Value Decomposition | Randomized Singular Value Decomposition |
+|------------------------------|-----------------------------------------|
+| error vs. dimension plot     | error vs. dimension plot                |
+| runtime vs. dimension plot   | runtime vs. dimension plot              |
+
+
 
 ### Image Compression
 We evaluate the performance between rSVD and SVD on an image compression task. The code and complete results are included in ``ImageCompress.ipynb``.
@@ -41,15 +47,6 @@ We evaluate the performance between rSVD and SVD on an image compression task. T
 We use two metrics: structural similarity index measure (SSIM) and peak signal-to-noise ratio (PSNR). Relative accuracy is reported as rSVD performs similar to SVD. 
 $`\text{Relative Acc} = \frac{|\text{Acc(rSVD)}-\text{Acc(SVD)}|}{\text{Acc{SVD}}}`$
 ![Img_compress accuracies](https://github.com/bhdsc/rNLA/blob/main/visualizations/exp3_acc.png)
-
-
-
-
-
-| Singular Value Decomposition | Randomized Singular Value Decomposition |
-|------------------------------|-----------------------------------------|
-| error vs. dimension plot     | error vs. dimension plot                |
-| runtime vs. dimension plot   | runtime vs. dimension plot              |
 
 ## References
 
