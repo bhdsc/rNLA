@@ -47,7 +47,7 @@ _The results above are obtained by running the jupyter notebook [rsvd.ipynb](rsv
 
 ### [Image Compression](ImageCompress.ipynb)
 
-We evaluate the performance between rSVD and SVD on an image compression task. The code and complete results are included in [Image Compression](ImageCompress.ipynb).
+We evaluate the performance between rSVD and SVD on an image compression task. The code and complete results are included in [ImageCompress.ipynb](ImageCompress.ipynb).
 
 #### Runtime
 
