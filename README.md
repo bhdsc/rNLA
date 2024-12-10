@@ -38,6 +38,10 @@ These experiments implement two versions of randomized matrix multiplication. On
 
 
 
+
+
+
+
 ### Image Compression
 We evaluate the performance between rSVD and SVD on an image compression task. The code and complete results are included in ``ImageCompress.ipynb``.
 
