@@ -12,6 +12,7 @@ The purpose of the experiments is to compare the accuracy and runtime of methods
 
 - [Approximate Matrix Multiplication](amm.ipynb)
 - [Randomized Singular Value Decomposition](rsvd.ipynb)
+- [Image Compression](imgCompress.ipynb)
 
 > [!NOTE]
 > Libraries in [requirements.txt](requirements.txt) must be installed before running the experiments/notebooks
@@ -39,3 +40,6 @@ These experiments implement two versions of randomized matrix multiplication. On
 ## References
 
 For a full list of references, see our [report](README.md).
+
+
+### Image Compression
