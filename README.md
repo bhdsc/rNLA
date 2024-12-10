@@ -12,7 +12,7 @@ The purpose of the experiments is to compare the accuracy and runtime of methods
 
 - [Approximate Matrix Multiplication](amm.ipynb)
 - [Randomized Singular Value Decomposition](rsvd.ipynb)
-- [Image Compression](ImgCompress.ipynb)
+- [Image Compression](ImageCompress.ipynb)
 
 > [!NOTE]
 > Libraries in [requirements.txt](requirements.txt) must be installed before running the experiments/notebooks
