@@ -35,7 +35,7 @@ These experiments implement two versions of randomized matrix multiplication. On
 
 ### [Randomized Singular Value Decomposition](rsvd.ipynb)
 
-We evaluate and compare the low-rank approximation runtimes and errors for rSVD and SVD on square ($m=n$), tall $m>n$, and fat ($m<n$) $R^{mxn}$ random matrices. Each row represents a unique data matrix to be approximated with a rank-k matrix produced by either rSVD or SVD. The first column of each row shows the sorted singular values for the matrix; the second column shows the rank-k approximation error for different values of k; the third column shows the runtime in seconds required to perform the rank-k approximation for different values of k; and the fourth column shows the speedup gained by performing rSVD instead of SVD ($runtime_{SVD} / runtime_{rSVD}$) for different values of k.
+We evaluate and compare the low-rank approximation runtimes and errors for rSVD and SVD on square ($m=n$), tall ($m>n$), and fat ($m<n$) $R^{mxn}$ random matrices. Each row represents a unique data matrix to be approximated with a rank-k matrix produced by either rSVD or SVD. The first column of each row shows the sorted singular values for the matrix; the second column shows the rank-k approximation error for different values of k; the third column shows the runtime in seconds required to perform the rank-k approximation for different values of k; and the fourth column shows the speedup gained by performing rSVD instead of SVD ($runtime_{SVD} / runtime_{rSVD}$) for different values of k.
 
 ![m=n](https://github.com/bhdsc/rNLA/blob/main/visualizations/exp2_m=n.png)
 
