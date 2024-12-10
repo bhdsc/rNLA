@@ -12,7 +12,7 @@ The purpose of the experiments is to compare the accuracy and runtime of methods
 
 - [Approximate Matrix Multiplication](amm.ipynb)
 - [Randomized Singular Value Decomposition](rsvd.ipynb)
-- [Image Compression](imgCompress.ipynb)
+- [Image Compression](ImgCompress.ipynb)
 
 > [!NOTE]
 > Libraries in [requirements.txt](requirements.txt) must be installed before running the experiments/notebooks
@@ -43,3 +43,9 @@ For a full list of references, see our [report](README.md).
 
 
 ### Image Compression
+We evaluate the performance between rSVD and SVD on an image compression task. The code and complete results are included in ``ImageCompress.ipynb``.
+
+#### Runtime
+![Img_compress runtimes](https://github.com/bhdsc/rNLA/blob/main/visualizations/exp3_time.png)
+#### Accuracy
+![Img_compress accuracies](https://github.com/bhdsc/rNLA/blob/main/visualizations/exp3_acc.png)
